@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kabnetic portfolio</title>
+  <meta name="description" content="Kabnetic — Web design, UI/UX and graphic design portfolio. Crafting modern digital experiences that help brands stand out and grow." />
+
+  <!-- Bootstrap 5 -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="kabnetic.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="brand-logo" href="#home">
+        <img src="images/logo.png" alt="Kabnetic logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav align-items-lg-center">
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <a class="btn btn-gradient" href="#contact">Hire Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-10 text-center">
+          <span class="eyebrow"><span class="dot"></span> Web Design • UI/UX • Graphic Design</span>
+          <h1>
+            Design. Develop.<br/>
+            <span class="grad">Elevate.</span>
+          </h1>
+          <p class="lead">
+            “We design clean interfaces and build functional web and desktop applications. WE help brands and businesses create user-friendly digital experiences using modern UI design, frontend development, and practical problem-solving.”
+          </p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <a href="#work" class="btn btn-gradient"><i class="bi bi-arrow-right-short me-1"></i> View My Work</a>
+            <a href="#contact" class="btn btn-outline-custom">Let's Talk</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="num">35+</div>
+              <div class="lbl">Projects Delivered</div>
+            </div>
+            <div class="hero-stat">
+              <div class="num">15+</div>
+              <div class="lbl">Happy Clients</div>
+            </div>
+            <div class="hero-stat">
+              <div class="num">6+</div>
+              <div class="lbl">Technologie's Mastered</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-7 reveal">
+          <div class="section-eyebrow">— Services</div>
+          <h2 class="section-title">What We do <span class="grad">best.</span></h2>
+          <p class="section-sub">I build clean, functional software and desktop tools, design responsive websites and UIs with HTML, Bootstrap, and CSS, and create professional graphics and brand visuals using Figma and Canva—all tailored to your project and audience.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-display"></i></div>
+            <h3>Website Design</h3>
+            <p>Modern, responsive and high-performing websites that build credibility and drive real business results.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-layout-text-window-reverse"></i></div>
+            <h3>UI / UX Design</h3>
+            <p>User-centered interfaces that create seamless experiences and turn visitors into engaged, loyal customers.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-pen"></i></div>
+            <h3>Graphic Design</h3>
+            <p>Creative visuals and branding that communicate your message clearly and leave a lasting impression.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-phone"></i></div>
+            <h3>Mobile App UI Design</h3>
+            <p>Beautiful and intuitive mobile experiences crafted for iOS and Android designed to delight users.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-stars"></i></div>
+            <h3>Brand Identity</h3>
+            <p>Distinctive logos, color systems and brand guidelines that define who you are and how you're seen.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-code-slash"></i></div>
+            <h3>Web Development</h3>
+            <p>Clean, scalable code that turns designs into fast, accessible websites — built to grow with you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="container">
+      <div class="row mb-5 align-items-end">
+        <div class="col-lg-7 reveal">
+          <div class="section-eyebrow">— Selected Work</div>
+          <h2 class="section-title">Recent <span class="grad">projects.</span></h2>
+          <p class="section-sub">A small selection of work I've shipped recently. Click any project to see the full case study.</p>
+        </div>
+        <div class="col-lg-5 text-lg-end reveal">
+          <a href="#" class="btn btn-outline-custom">View All Projects <i class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 reveal">
+          <a class="work-card" href="https://www.figma.com/design/rL2lppZCt70dYcqYdbZSYe/Untitled?node-id=0-1&p=f&t=QQVVDpX2oAuz1XNi-0" target="_blank" rel="noopener">
+            <div class="thumb"><img src="images/work1.png" alt="FutureFlow SaaS Website" loading="lazy" /></div>
+            <div class="meta">
+              <div>
+                <span class="tag">Figma Design</span>
+                <h3>Hr-AI Module Cv Workflow</h3>
+              </div>
+              <div class="arrow"><i class="bi bi-arrow-up-right"></i></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 reveal">
+          <a class="work-card" href="https://www.figma.com/design/yHtmJdo2WHhXiWqPSuNKsX/AI-PASS-landing-page?node-id=224-6793&t=dZzLxnhC4cAWxEbN-0" target="_blank" rel="noopener">
+            <div class="thumb"><img src="images/work2.png" alt="Finance Mobile App" loading="lazy" /></div>
+            <div class="meta">
+              <div>
+                <span class="tag">Figma Design</span>
+                <h3>AI Pass Module - Landing Page</h3>
+              </div>
+              <div class="arrow"><i class="bi bi-arrow-up-right"></i></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 reveal">
+          <a class="work-card" href="https://medicapp.oluseguncaleb6.workers.dev/" target="_blank" rel="noopener">
+            <div class="thumb"><img src="images/work3.png" alt="Brand Identity" loading="lazy" /></div>
+            <div class="meta">
+              <div>
+                <span class="tag">Medic Website</span>
+                <h3>Demo website for Lumen Medicals</h3>
+              </div>
+              <div class="arrow"><i class="bi bi-arrow-up-right"></i></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 reveal">
+          <a class="work-card" href="https://petalpaw.oluseguncaleb6.workers.dev/" target="_blank" rel="noopener">
+            <div class="thumb"><img src="images/work4.png" alt="E-commerce Platform" loading="lazy" /></div>
+            <div class="meta">
+              <div>
+                <span class="tag">Pet Websitse</span>
+                <h3>Petal paw website for pets</h3>
+              </div>
+              <div class="arrow"><i class="bi bi-arrow-up-right"></i></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5 reveal">
+          <div class="about-img-wrap">
+            <img src="images/about.jpg" alt="About Kabnetic" loading="lazy" />
+          </div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <div class="section-eyebrow">— About Me</div>
+          <h2 class="section-title">Designing with <span class="grad">purpose</span> & precision.</h2>
+          <p class="section-sub mb-4">
+            I'm Olusegun Caleb, a  Graphic,UI/UX & website Designer. With hands-on experience building sleek websites using HTML, Bootstrap, and CSS, and creating user-focused designs in Figma and Canva, I turn ideas into intuitive, high-impact digital experiences. Passionate about blending code and creativity, I'm always exploring AI tools to streamline design workflows and deliver results that drive engagement.
+          </p>
+          <p style="color: var(--muted); margin-bottom: 1.75rem;">
+            Every project starts with listening to your goals, your audience, and your vision and ends with a result you can be proud of. Let's collaborate on your next project!
+          </p>
+          <div class="mb-4">
+            <span class="skill-pill">Figma</span>
+            <span class="skill-pill">Webflow</span>
+            <span class="skill-pill">Bootstrap</span>
+            <span class="skill-pill">HTML & CSS</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Brand Strategy</span>
+            <span class="skill-pill">Motion</span>
+          </div>
+          <a href="#contact" class="btn btn-gradient">Start a Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section id="tools" style="padding-top:0;">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-lg-7 reveal">
+          <div class="section-eyebrow">— Tools & Technologies</div>
+          <h2 class="section-title">My everyday <span class="grad">toolkit.</span></h2>
+        </div>
+      </div>
+      <div class="tools-strip reveal">
+        <div class="tool-item"><i class="bi bi-vector-pen"></i> Figma</div>
+        <div class="tool-item"><i class="bi bi-palette"></i> Stitch</div>
+        <div class="tool-item"><i class="bi bi-filetype-html"></i> HTML5</div>
+        <div class="tool-item"><i class="bi bi-bootstrap"></i> Bootstrap</div>
+        <div class="tool-item"><i class="bi bi-filetype-css"></i> CSS3</div>
+        <div class="tool-item"><i class="bi bi-filetype-js"></i> JavaScript</div>
+        <div class="tool-item"><i class="bi bi-image"></i> Canva</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section id="contact">
+    <div class="container">
+      <div class="cta-card reveal mb-5">
+        <div class="section-eyebrow" style="justify-content:center;">— Let's Connect</div>
+        <h2>Let's build something <span class="grad">great</span> together.</h2>
+        <p>Have a project in mind or just want to say hello? I'd love to hear from you.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 reveal">
+          <div class="contact-info-item">
+            <div class="ico"><i class="bi bi-telephone"></i></div>
+            <div>
+              <div class="lbl">Phone</div>
+              <div class="val"><a href="tel:+2348105074990">+234 810 507 4990</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal">
+          <div class="contact-info-item">
+            <div class="ico"><i class="bi bi-envelope"></i></div>
+            <div>
+              <div class="lbl">Email</div>
+              <div class="val"><a href="mailto:Kabnetic@gmail.com">Kabnetic@gmail.com</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal">
+          <div class="contact-info-item">
+            <div class="ico"><i class="bi bi-geo-alt"></i></div>
+            <div>
+              <div class="lbl">Location</div>
+              <div class="val">Remote and onsite collaboration, Nigeria based</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal">
+          <div class="contact-info-item">
+            <div class="ico"><i class="bi bi-clock"></i></div>
+            <div>
+              <div class="lbl">Availability</div>
+              <div class="val">Mon–Fri, 9am–6pm WAT. Fast response within 24 hours.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 reveal">
+          <div class="contact-info-item" style="background: rgba(99,102,241,.08);">
+            <div class="ico"><i class="bi bi-chat-dots"></i></div>
+            <div>
+              <div class="lbl">Let’s talk</div>
+              <div class="val">Ready to start a project? Send an email or phone message and I’ll follow up with a custom proposal that fits your goals.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="socials">
+        <a href="https://wa.me/qr/EWYIUP5QDPLZN1" aria-label="Whatsapp"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/olusegun-caleb-8a7273214/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/kabbabc" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a href=" https://www.snapchat.com/add/kabaabc?share_id=gLXRuId4hW8&locale=en-GB" aria-label="Snapchat"><i class="bi bi-snapchat"></i></a>
+      </div>
+      <div>© <span id="yr"></span> Kabnetic. All rights reserved.</div>
+      <div class="tagline">Thoughtful Design • Smart Solutions • Real Impact</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Year
+    document.getElementById('yr').textContent = new Date().getFullYear();
+
+    // Navbar shrink on scroll
+    const nav = document.querySelector('.navbar-custom');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 30);
+    });
+
+    // Reveal on scroll
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Active nav link
+    const sections = document.querySelectorAll('section[id], header[id]');
+    const links = document.querySelectorAll('.nav-link-custom');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      });
+      links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + current));
+    });
+  </script>
+</body>
+</html>
